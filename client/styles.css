@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-color: #cc320c;
+    background-blend-mode: darken;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.departures {
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.departures table {
+    background-color: rgb(70, 70, 70);
+    text-align: left;
+}
+
+.departures table div {
+    border: solid 4px rgb(26,26,26);
+    background-color: rgb(0,0,0);
+    min-width: 20px;
+    height: 40px;
+    float: left;
+}
+
+
